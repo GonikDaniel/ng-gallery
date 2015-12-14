@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('app', [
+    angular.module('dgPhotoGallery', [
         /*
          * Order is not important. Angular makes a
          * pass to register all of the modules listed
@@ -14,7 +14,10 @@
          * We could place these under every feature area,
          * but this is easier to maintain.
          */ 
-        'app.widgets'
+        // 'app.widgets',
+        'ngRoute', 
+        'ngResource', 
+        'ngAnimate'
     ]);
 
 })();

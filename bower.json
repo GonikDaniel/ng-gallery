@@ -21,6 +21,8 @@
     "angular": "~1.4.x",
     "angular-route": "~1.4.x",
     "angular-animate": "~1.4.x",
+    "angular-resource": "~1.4.x",
+    "spin.js": "2.3.x",
     "angular-sanitize": "~1.4.x",
     "toastr": "~2.0.1",
     "bootstrap": "~3.1.1",

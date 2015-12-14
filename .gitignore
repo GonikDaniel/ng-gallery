@@ -1,11 +1,6 @@
-# Ignore Visual Studio  Project #
-###################
-*.user
-*.gpState
-*.suo
-bin
-obj
-/packages
+# Ignore some static files
+images/
+bin/
 
 # Ignore Node & Bower
 ###################
