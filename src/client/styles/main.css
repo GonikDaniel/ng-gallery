@@ -1,0 +1,54 @@
+body {
+    padding-top: 70px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+}
+
+.thumb {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.thumb:hover .thumbnail {
+    display: none;
+}
+
+.thumb:hover .content {
+    color: #676767;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.thumb .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    color: #eee;
+    font-size: 12px;
+}
+
+.thumb .content:hover {
+    cursor: pointer;
+}
+
+.thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.thumbnail img {
+    width: 253px;
+    height: 189px;
+}
+
+footer {
+    margin: 50px 0;
+}

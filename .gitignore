@@ -1,6 +1,7 @@
 # Ignore some static files
 images/
 bin/
+backups/
 
 # Ignore Node & Bower
 ###################

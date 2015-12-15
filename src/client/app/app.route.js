@@ -7,13 +7,13 @@ angular.module('dgPhotoGallery').config(['$routeProvider', '$locationProvider',f
         .when('/albums', {
             templateUrl: 'app/albums/index.html',
             controller: 'AlbumIndexController',
-            controllerAs: 'albums'
+            // controllerAs: 'albums'
         })
 
         .when('/albums/:id', {
             templateUrl: 'app/albums/album.html',
             controller: 'AlbumShowController',
-            controllerAs: 'album'
+            // controllerAs: 'album'
         })
 
         .otherwise({redirectTo: '/'});

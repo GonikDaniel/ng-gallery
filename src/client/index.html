@@ -13,13 +13,14 @@
 
     <!-- Bootstrap Core CSS -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 
     <!-- Custom CSS -->
-    <link href="styles/thumbnail-gallery.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/animations.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +33,7 @@
 
 <body>
 
-    <dgTopNav></dgTopNav>
+    <dg-top-nav></dg-top-nav>
 
     <div class="view-container">
         <div data-ng-view class="view-frame"></div>
@@ -40,15 +41,15 @@
 
     
     <!-- Vendor Scripts -->
-    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../../bower_components/angular/angular.min.js"></script>
-    <script src="../../bower_components/angular-animate/angular-animate.min.js"></script>
-    <script src="../../bower_components/angular-route/angular-route.min.js"></script>
-    <script src="../../bower_components/angular-resource/angular-resource.min.js"></script>
-    <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../bower_components/moment/min/moment.min.js"></script>
-    <script src="../../bower_components/spin.js/spin.min.js"></script>
-    <script src="../../bower_components/toastr/toastr.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="bower_components/spin.js/spin.min.js"></script>
+    <script src="bower_components/toastr/toastr.min.js"></script>
 
     <!-- Bootstrapping -->
     <script src="app/app.module.js"></script>
@@ -67,6 +68,10 @@
     <script src="app/services/logger.service.js"></script>
     <script src="app/services/spinner.service.js"></script> -->
 
-</body>
+    <!-- Directives -->
+    <script src="app/components/title.js"></script>
+    <script src="app/components/topnav.js"></script>
+    <script src="app/components/footer.js"></script>
 
+</body>
 </html>
